@@ -9,7 +9,7 @@ It is important to provide a governance mechanism, while MIPs can track the prog
 ## Contributing
 
 1. Fork the repository by clicking "Fork" in the top right.
-2. Add your MIP to your fork of the repository. The image files should be included in assets/mip-N (where N is to be replaced with the MIP number). Use relative links such as ../assets/mip-1/image.png.
+2. Add your MIP to your fork of the repository. The markdown file and image files should be included in /mips/mip-N/ (where N is to be replaced with the MIP number).
 3. Submit a Pull Request to [MIPs repository](https://github.com/mcdexio/mips).
 
 ## Life cycle
