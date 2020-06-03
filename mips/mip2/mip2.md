@@ -50,9 +50,11 @@ The new proposed AMM has the following features. We assume `β` = 0.1.
 
 ![Lower slippage](./slippage.png)
 
-**Zero impermanent loss**: Impermanent loss is the difference between holding tokens in an AMM and holding them in your wallet. 
+**Zero impermanent loss**: Impermanent loss usually occurs when the index price changes. If the index price changes in old AMM, the total value of assets in the liquidity pool will always be lower than holding them in your wallet. On the other hand in the new AMM, the change in total asset value is only related to risk exposure.
 
-The price in new AMM automatically follows the index price. If no other variables but index price changes, Liquidity Provider’s risk exposure will NOT change. In fact, arbitrageurs are helping Liquidity Providers reduce their risk exposure. Once arbitrageurs make `price = index`, the risk exposure will be 0, thus the Liquidity Provider’s position value is not related to the index price.
+If the risk exposure is 0 and the index price changes, the price in new AMM automatically follows the index price, and Liquidity Provider’s risk exposure will not change. The total asset value will not change.
+
+If the risk exposure is not 0, arbitrageurs are helping Liquidity Providers reduce their risk exposure. Arbitrageurs tend to move prices toward index prices, which at the same time tends to zero the provider's risk exposure.
 
 ![Impermanent loss](./loss.png)
 
