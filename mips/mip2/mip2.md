@@ -1,3 +1,5 @@
+# MIP2: A New Perpetual AMM Pricing Formula With High Capital Efficiency And Zero Impermanent Loss
+
 ---
 mip: 2
 title: A New Perpetual AMM Pricing Formula With High Capital Efficiency And Zero Impermanent Loss
