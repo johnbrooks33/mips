@@ -1,8 +1,8 @@
 ---
 mip: 2
 title: A New Perpetual AMM Pricing Formula With High Capital Efficiency And Zero Impermanent Loss
-type: Core
-status: Draft
+type: core
+status: draft
 author: MingDa Lei<liangzibear@163.com>, Tianchi Zhu<zhutianchi@mcarlo.com>
 created: 2020-5-28
 updated: 
