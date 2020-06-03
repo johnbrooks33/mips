@@ -1,6 +1,6 @@
 ---
 mip: 2
-title: A New Perpetual AMM Pricing Formula With High Capital Efficiency And Zero Impermanent Loss
+title: A New Perpetual AMM Pricing Formula With High Capital Efficiency
 type: core
 status: draft
 author: MingDa Lei<liangzibear@163.com>, Tianchi Zhu<zhutianchi@mcarlo.com>
@@ -49,14 +49,6 @@ The new proposed AMM has the following features. We assume `β` = 0.1.
 **Lower slippage**: If the Liquidity Provider provides the same liquidity, the slippage of the new AMM is significantly reduced. ex: If `y` = 5,000 ETH (about $1M), Bob wants to buy 500 ETH(about $100k), the slippage will decrease from 11% to 0.25%.
 
 ![Lower slippage](./slippage.png)
-
-**Zero impermanent loss**: Impermanent loss usually occurs when the index price changes. If the index price changes in old AMM, the total value of assets in the liquidity pool will always be lower than holding them in your wallet. On the other hand in the new AMM, the change in total asset value is only related to risk exposure.
-
-If the risk exposure is 0 and the index price changes, the price in new AMM automatically follows the index price, and Liquidity Provider’s risk exposure will not change. The total asset value will not change.
-
-If the risk exposure is not 0, arbitrageurs are helping Liquidity Providers reduce their risk exposure. Arbitrageurs tend to move prices toward index prices, which at the same time tends to zero the provider's risk exposure.
-
-![Impermanent loss](./loss.png)
 
 **Limited market making price range**: The only trade-off for the new AMM is that since all inventory capital needs to be concentrated near the index price, the new AMM can only provide a limited market-making scope. For example, when the long position in AMM is exhausted, the trader cannot continue to long with AMM. The price range of services provided by new AMM mainly depends on the liquidity provided.
 
