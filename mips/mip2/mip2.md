@@ -46,7 +46,7 @@ The new proposed AMM has the following features. We assume `β` = 0.1.
 
 ![capital efficiency](./capital.png)
 
-**Better slippage**: If the Liquidity Provider provides the same liquidity, the slippage of the new AMM is significantly reduced. ex: If `y` = 5,000 ETH (about $1M), Bob wants to buy 500 ETH(about $100k), the slippage will decrease from 11% to 0.25%.
+**Lower slippage**: If the Liquidity Provider provides the same liquidity, the slippage of the new AMM is significantly reduced. ex: If `y` = 5,000 ETH (about $1M), Bob wants to buy 500 ETH(about $100k), the slippage will decrease from 11% to 0.25%.
 
 ![slippage](./slippage.png)
 
