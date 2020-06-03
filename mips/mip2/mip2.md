@@ -27,7 +27,7 @@ The Uniswap-like formula has a tricky feature to ensure that the funds in the po
 1. Larger orders tend to suffer greater slippage. On average, only 1% of the pool's funds can maintain reasonable prices.
 2. When the price leaves the liquidity provider's entry price, there will be impermanent losses, compared with holding the equivalent position + collateral.
 
-From a macro perspective, the old price formula did not make use of the index price, and it only priced based on the inventory in the pool, which was a lack of efficiency. In fact, human market makers will consider the index price and place the order near the middle price, while the liquidity far away from the middle price is limited.
+From a macro perspective, the old price formula did not make use of the index price, and it only priced based on the inventory in the pool, which was a lack of efficiency. In fact, human market makers will consider the index price and place the orders near the middle price, while the liquidity far away from the middle price is limited.
 
 ## Rationale and features
 The proposed price (`P`) formula introduces both index price (`i`) and risk exposure (`E`). The price equals to the index price when there is no risk exposure. The greater the risk exposure, the farther the price is away from the index price.
