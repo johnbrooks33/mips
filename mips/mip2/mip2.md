@@ -64,7 +64,7 @@ If the risk exposure is not 0, arbitrageurs are helping Liquidity Providers redu
 Define:
 * `x`: The reserve of quote tokens in AMM (ex: USD).
 * `x0`: The number of quote tokens deposited by liquidity providers.
-* `y`: The reserve of base tokens in AMM. (ex: ETH).
+* `y`: The reserve of base tokens in AMM (ex: ETH).
 * `y0`: The number of base tokens deposited by liquidity providers.
 * `i`: Index price.
 * `β`: Liquidity parameter.
