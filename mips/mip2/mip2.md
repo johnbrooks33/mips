@@ -18,9 +18,9 @@ P = i + β ∙ i ∙ E
 ```
 
 ## Motivation
-AMM provides on-chain trading interfaces to the traders and funding rate to decentralized perpetual contracts. However, the current Uniswap-like formula is less capital efficient.
+AMM provides on-chain trading interfaces to the traders and funding rate to decentralized perpetual contracts. However, the old constant-product AMM formula is less capital efficient.
 
-The Uniswap-like formula has a tricky feature to ensure that the funds in the pool will never be exhausted by infinitely increasing the price. But there are 2 disadvantages at the same time: 
+The old constant-product AMM formula has a tricky feature to ensure that the funds in the pool will never be exhausted by infinitely increasing the price. But there are 2 disadvantages at the same time: 
 
 1. Larger orders tend to suffer greater slippage. On average, only 1% of the pool's funds can maintain reasonable prices.
 2. When the price leaves the liquidity provider's entry price, there will be impermanent losses, compared with holding the equivalent position + collateral.
